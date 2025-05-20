@@ -1,50 +1,119 @@
-# React + TypeScript + Vite
+# 🛡️ Cybersecurity Login Page UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive, accessible, and modern login page UI designed for a cybersecurity-themed web application.
+---
 
-Currently, two official plugins are available:
+## 🚀 Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Responsive Design**
+- ✅ **Email & Password Input Fields**
+- ✅ **Remember Me Checkbox**
+- ✅ **Forgot Password Link**
+- ✅ **Loading Indicator on Login**
+- ✅ **Clear Error Messages**
+- ✅ **Keyboard Accessibility & ARIA Labels**
+- ✅ **Modern and Clean UI**
+- ✅ **Dark Cybersecurity Theme**
+- ✅ **Basic Client-side Validation**
+- ✅ **Reusable React Components**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- React.js
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- Tailwind CSS / CSS Modules (depending on your stack)
+- Git & GitHub
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📷 Screenshots
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+> *(Optional – Add screenshots of your UI here)*  
+![Screenshot](./screenshot.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## 📁 Folder Structure
+
+CYBERSECURITY-THEMED-LOGIN-PAGE/
+├── node_modules/
+├── public/
+│   └── shield-logo.png
+├── src/
+│   ├── components/
+│   │   ├── CyberSecurityBackground.jsx
+│   │   ├── Logo.jsx
+│   │   ├── PasswordStrengthMeter.jsx
+│   │   ├── SecurityStats.jsx
+│   │   └── SecurityTlps.jsx
+│   ├── lib/
+│   │   └── utils.js
+│   ├── ui/
+│   │   ├── button.jsx
+│   │   ├── card.jsx
+│   │   ├── checkbox.jsx
+│   │   ├── form.jsx
+│   │   ├── input.jsx
+│   │   └── label.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── components.json
+├── index.html
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+
+
+
+---
+
+## 📦 How to Run the Project Locally
+
+1. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/cybersecurity-login-ui.git
+    cd cybersecurity-login-ui
+    ```
+
+2. **Install Dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3. **Start Development Server**
+
+    ```bash
+    npm start
+    ```
+
+4. Open in browser: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 Live Demo
+
+[https://your-vercel-or-netlify-link.com](https://your-vercel-or-netlify-link.com)
+<!-- Add actual deployed URL if available -->
+
+---
+
+## 📧 Contact
+
+**Yash Hulle**  
+📞 9665187273  
+📧 yash.hulle3699@gmail.com  
+📍 Pune, India  
+[in] https://www.linkedin.com/in/yash-hulle/
+
+---
