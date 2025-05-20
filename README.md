@@ -31,46 +31,15 @@ This project is a responsive, accessible, and modern login page UI designed for 
 
 ## 📷 Screenshots
 
-> *(Optional – Add screenshots of your UI here)*  
-![Screenshot](./screenshot.png)
+![Screenshot](./public/Screenshot.png)
+
 
 ---
 
 ## 📁 Folder Structure
 
-CYBERSECURITY-THEMED-LOGIN-PAGE/
-├── node_modules/
-├── public/
-│   └── shield-logo.png
-├── src/
-│   ├── components/
-│   │   ├── CyberSecurityBackground.jsx
-│   │   ├── Logo.jsx
-│   │   ├── PasswordStrengthMeter.jsx
-│   │   ├── SecurityStats.jsx
-│   │   └── SecurityTlps.jsx
-│   ├── lib/
-│   │   └── utils.js
-│   ├── ui/
-│   │   ├── button.jsx
-│   │   ├── card.jsx
-│   │   ├── checkbox.jsx
-│   │   ├── form.jsx
-│   │   ├── input.jsx
-│   │   └── label.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── components.json
-├── index.html
-├── jsconfig.json
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── README.md
-├── tailwind.config.js
-└── vite.config.js
+CYBERSECURITY-THEMED-LOGIN-PAGE/ ├── node_modules/ ├── public/ │ └── shield-logo.png ├── src/ │ ├── components/ │ │ ├── CyberSecurityBackground.jsx │ │ ├── Logo.jsx │ │ ├── PasswordStrengthMeter.jsx │ │ ├── SecurityStats.jsx │ │ └── SecurityTlps.jsx
+│ ├── lib/ │ │ └── utils.js │ ├── ui/ │ │ ├── button.jsx │ │ ├── card.jsx │ │ ├── checkbox.jsx │ │ ├── form.jsx │ │ ├── input.jsx │ │ └── label.jsx │ ├── App.jsx │ ├── index.css │ └── main.jsx ├── .gitignore ├── components.json ├── index.html ├── jsconfig.json ├── package-lock.json ├── package.json ├── postcss.config.js ├── README.md ├── tailwind.config.js └── vite.config.js
 
 
 
@@ -81,8 +50,8 @@ CYBERSECURITY-THEMED-LOGIN-PAGE/
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/cybersecurity-login-ui.git
-    cd cybersecurity-login-ui
+    git clone https://github.com/INFINITYASH3699/Cybersecurity-Themed-Login-Page.git
+    cd Cybersecurity-Themed-Login-Page
     ```
 
 2. **Install Dependencies**
@@ -103,8 +72,7 @@ CYBERSECURITY-THEMED-LOGIN-PAGE/
 
 ## 🌐 Live Demo
 
-[https://your-vercel-or-netlify-link.com](https://your-vercel-or-netlify-link.com)
-<!-- Add actual deployed URL if available -->
+https://cybersecurity-themed-login-page.vercel.app/
 
 ---
 
