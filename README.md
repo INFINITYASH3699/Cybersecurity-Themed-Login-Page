@@ -1,6 +1,7 @@
 # 🛡️ Cybersecurity Login Page UI
 
 This project is a responsive, accessible, and modern login page UI designed for a cybersecurity-themed web application.
+
 ---
 
 ## 🚀 Features Implemented
@@ -33,15 +34,45 @@ This project is a responsive, accessible, and modern login page UI designed for 
 
 ![Screenshot](./public/Screenshot.png)
 
-
 ---
 
 ## 📁 Folder Structure
 
-CYBERSECURITY-THEMED-LOGIN-PAGE/ ├── node_modules/ ├── public/ │ └── shield-logo.png ├── src/ │ ├── components/ │ │ ├── CyberSecurityBackground.jsx │ │ ├── Logo.jsx │ │ ├── PasswordStrengthMeter.jsx │ │ ├── SecurityStats.jsx │ │ └── SecurityTlps.jsx
-│ ├── lib/ │ │ └── utils.js │ ├── ui/ │ │ ├── button.jsx │ │ ├── card.jsx │ │ ├── checkbox.jsx │ │ ├── form.jsx │ │ ├── input.jsx │ │ └── label.jsx │ ├── App.jsx │ ├── index.css │ └── main.jsx ├── .gitignore ├── components.json ├── index.html ├── jsconfig.json ├── package-lock.json ├── package.json ├── postcss.config.js ├── README.md ├── tailwind.config.js └── vite.config.js
-
-
+```
+CYBERSECURITY-THEMED-LOGIN-PAGE/
+├── node_modules/
+├── public/
+│   └── shield-logo.png
+├── src/
+│   ├── components/
+│   │   ├── CyberSecurityBackground.jsx
+│   │   ├── Logo.jsx
+│   │   ├── PasswordStrengthMeter.jsx
+│   │   ├── SecurityStats.jsx
+│   │   └── SecurityTips.jsx
+│   ├── lib/
+│   │   └── utils.js
+│   ├── ui/
+│   │   ├── button.jsx
+│   │   ├── card.jsx
+│   │   ├── checkbox.jsx
+│   │   ├── form.jsx
+│   │   ├── input.jsx
+│   │   └── label.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── components.json
+├── index.html
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+```
 
 ---
 
